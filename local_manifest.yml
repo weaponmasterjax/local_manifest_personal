@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 
+
+<remote name="mmtrt"
+          fetch="https://gitlab.com/mmtrt" /> 
+
+    <!-- Trees -->
+    <project path="device/xiaomi/evergo" name="android_device_xiaomi_evergo-2.git" remote="mmtrt" revision="lineage-19.1" />
+    <project path="vendor/xiaomi/evergo" name="vendor_xiaomi_evergo.git" remote="mmtrt" revision="arrow-12.1" /> 
+
+</manifest> 
