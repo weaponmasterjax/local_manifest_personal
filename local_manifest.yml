@@ -4,4 +4,5 @@
     <project name="mmtrt/vendor_xiaomi_evergo" path="vendor/xiaomi/evergo" revision="arrow-12.1" remote="gitlab" />
     <project name="PixelExperience-Devices/kernel_redmi_rosemary" path="kernel/xiaomi/evergo" revision="thirteen-plus" remote="github" />
     <project name="PixelExperience/device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" revision="twelve" remote="github" />
+    <project name="PixelExperience/prebuilts_clang_kernel_linux-x86_clang-r416183b" path="prebuilts/clang/host/linux-x86/clang-r416183b" revision="thirteen" remote="github" />
 </manifest> 
