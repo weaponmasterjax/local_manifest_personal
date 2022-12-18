@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest> 
-    <project name="mmtrt/android_device_xiaomi_evergo" path="device/xiaomi/evergo" revision="mix" remote="github" />
-    <project name="mmtrt/vendor_xiaomi_evergo" path="vendor/xiaomi/evergo" revision="arrow-12.1" remote="gitlab" />
-    <project name="PixelExperience-Devices/kernel_redmi_rosemary" path="kernel/xiaomi/evergo" revision="thirteen-plus" remote="github" />
-    <project name="PixelExperience/device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" revision="twelve" remote="github" />
-    <project name="PixelExperience/prebuilts_clang_kernel_linux-x86_clang-r416183b" path="prebuilts/clang/host/linux-x86/clang-r416183b" revision="thirteen" remote="github" />
+<manifest>
+    <remote name="my-gh"
+    fetch="https://github.com/mmtrt" />
+    <remote name="my-gl"
+    fetch="https://gitlab.com/mmtrt" />
+    <remote name="pe-gh"
+    fetch="https://github.com/PixelExperience" />
+    <remote name="ped-gh"
+    fetch="https://github.com/PixelExperience-Devices" />
+
+    <project name="android_device_xiaomi_evergo" path="device/xiaomi/evergo" revision="mix" remote="my-gh" />
+    <project name="vendor_xiaomi_evergo" path="vendor/xiaomi/evergo" revision="arrow-12.1" remote="my-gl" />
+    <project name="kernel_redmi_rosemary" path="kernel/xiaomi/evergo" revision="thirteen-plus" remote="ped-gh" />
+    <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" revision="twelve" remote="pe-gh" />
+    <project name="prebuilts_clang_kernel_linux-x86_clang-r416183b" path="prebuilts/clang/host/linux-x86/clang-r416183b" revision="thirteen" remote="pe-gh" />
 </manifest> 
