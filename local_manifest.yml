@@ -2,11 +2,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
 
-<remote name="mmtrt"
+<remote name="github"
           fetch="https://gitlab.com/mmtrt" /> 
+<remote name="gitlab"
+          fetch="https://gitlab.com/mmtrt" />
+<remote name="github-px-d"
+          fetch="https://github.com/PixelExperience-Devices" />
+<remote name="github-px-e"
+          fetch="https://github.com/PixelExperience" />
+
 
     <!-- Trees -->
-    <project path="device/xiaomi/evergo" name="android_device_xiaomi_evergo-2.git" remote="mmtrt" revision="lineage-19.1" />
-    <project path="vendor/xiaomi/evergo" name="vendor_xiaomi_evergo.git" remote="mmtrt" revision="arrow-12.1" /> 
+    <project path="device/xiaomi/evergo" name="android_device_xiaomi_evergo.git" remote="github" revision="mix" />
+    <project path="vendor/xiaomi/evergo" name="vendor_xiaomi_evergo.git" remote="gitlab" revision="arrow-12.1" />
+    <project path="kernel/xiaomi/evergo" name="kernel_redmi_rosemary.git" remote="github-px-d" revision="thirteen-plus" />
+    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="github-px-e" revision="twelve" />
 
 </manifest> 
