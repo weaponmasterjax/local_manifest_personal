@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="my-gh"
-    fetch="https://github.com/mmtrt" />
-    <remote name="my-gl"
-    fetch="https://gitlab.com/mmtrt" />
-    <remote name="pe-gh"
-    fetch="https://github.com/PixelExperience" />
-    <remote name="ped-gh"
-    fetch="https://github.com/PixelExperience-Devices" />
+    <remote name="my-gh" fetch="https://github.com/mmtrt" />
+    <remote name="my-gl" fetch="https://gitlab.com/mmtrt" />
+    <remote name="pe-gh" fetch="https://github.com/PixelExperience" />
+    <remote name="ped-gh" fetch="https://github.com/PixelExperience-Devices" />
 
     <project path="device/xiaomi/evergo" name="android_device_xiaomi_evergo"  remote="my-gh" revision="mix"/>
     <project path="vendor/xiaomi/evergo" name="vendor_xiaomi_evergo" remote="my-gl" revision="arrow-12.1" />
