@@ -5,7 +5,7 @@
     <remote name="pe-gh" fetch="https://github.com/PixelExperience" />
     <remote name="ped-gh" fetch="https://github.com/PixelExperience-Devices" />
 
-    <project path="device/xiaomi/evergo" name="android_device_xiaomi_evergo"  remote="my-gh" revision="mix"/>
+    <project path="device/xiaomi/evergo" name="android_device_xiaomi_evergo" remote="my-gh" revision="mix"/>
     <project path="vendor/xiaomi/evergo" name="vendor_xiaomi_evergo" remote="my-gl" revision="arrow-12.1" />
     <project path="kernel/xiaomi/evergo" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
     <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pe-gh" revision="twelve" />
