@@ -8,5 +8,4 @@
     <project path="device/xiaomi/evergo" name="device_xiaomi_evergo" remote="my-gh" revision="mix"/>
     <project path="vendor/xiaomi/evergo" name="vendor_xiaomi_evergo" remote="my-gl" revision="arrow-12.1" />
     <project path="kernel/xiaomi/evergo" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="pe-gh" revision="arrow-12.1" />
 </manifest> 
