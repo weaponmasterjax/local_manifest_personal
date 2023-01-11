@@ -9,5 +9,4 @@
     <project path="vendor/xiaomi/evergo" name="vendor_xiaomi_evergo" remote="my-gl" revision="arrow-12.1" />
     <project path="kernel/xiaomi/evergo" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
     <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pe-gh" revision="twelve" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="pe-gh" revision="thirteen" />
 </manifest> 
