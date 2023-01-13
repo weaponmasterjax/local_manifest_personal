@@ -2,11 +2,12 @@
 <manifest>
     <remote name="my-gh" fetch="https://github.com/mmtrt" />
     <remote name="my-gl" fetch="https://gitlab.com/mmtrt" />
-    <remote name="pe-gh" fetch="https://github.com/crdroidandroid" />
+    <remote name="crd-gh" fetch="https://github.com/crdroidandroid" />
     <remote name="ped-gh" fetch="https://github.com/PixelExperience-Devices" />
 
     <project path="device/xiaomi/evergo" name="device_xiaomi_evergo" remote="my-gh" revision="mix"/>
     <project path="vendor/xiaomi/evergo" name="vendor_xiaomi_evergo" remote="my-gl" revision="arrow-12.1" />
     <project path="kernel/xiaomi/evergo" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy" remote="pe-gh" revision="12.1" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="crd-gh" revision="12.1" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy" remote="crd-gh" revision="12.1" />
 </manifest> 
