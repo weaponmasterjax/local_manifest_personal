@@ -11,6 +11,6 @@
     <project path="device/xiaomi/everpal" name="device_xiaomi_everpal" remote="my-gh" revision="mix"/>
     <project path="vendor/xiaomi/everpal" name="vendor_xiaomi_everpal" remote="my-gl" revision="thirteen" />
     <project path="kernel/xiaomi/everpal" name="kernel_redmi_rosemary" remote="ped-gh" revision="thirteen-plus" />
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evp-gl" revision="thirteen" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evp-gh" revision="thirteen" />
     <project path="device/mediatek/sepolicy_vndr" name="android_hardware_mediatek" remote="los-gh" revision="lineage-20" />
 </manifest> 
